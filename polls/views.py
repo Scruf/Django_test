@@ -21,7 +21,7 @@ def detail(request,question_id):
 
     return HttpResponse("You are looking at question %s"%question_id)
 
-def result(request,question_id):
+def results(request,question_id):
     return HttpResponse("You are looking at the result question %s"%question_id)
 
 def vote(request,question_id):
